@@ -1,6 +1,6 @@
 {
-  "name": "scalefinder",
-  "version": "0.1.0",
+  "name": "keyfinder",
+  "version": "0.1.1",
   "description": "WebAudio key improviser",
   "author": "laopunk",
   "devDependencies": {

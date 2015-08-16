@@ -18,9 +18,6 @@ var RB = require('react-bootstrap')
 	, MenuItem = RB.MenuItem
 ;
 
-//Web audio API
-var ac = new AudioContext;
-
 var scalePlayer = React.createClass({
 	getInitialState: function() {
 		return {

@@ -8,8 +8,6 @@ var InputType  = require('./inputType.jsx')
 //JS modules
 var React = require('react')
   , sc  = require('scalesapi')
-  , cp2 = require('chordplayer')
-  , np2 = require('noteplayer')
   , _ = require('lodash')
 
   //bootstrap specific
@@ -25,12 +23,6 @@ var React = require('react')
   , Badge = RB.Badge
   , Panel = RB.Panel
 ;
-
-//debug
-window._ = _;
-window.sc = sc;
-window.np2 = np2;
-window.cp2 = cp2;
 
 var Calculator = React.createClass({
 	getInitialState: function() {
